@@ -1,0 +1,69 @@
+name: RealColoredChat
+main: fr.crafter.tickleman.realcoloredchat.RealColoredChatPlugin
+version: 0.1
+author: tickleman
+commands:
+  colset:
+    aliases: [cs]
+    description: Set players colors after permissions set and reload
+permissions:
+  color.*:
+    description: colorise player nickname on both chat and list
+    default: false
+    children:
+      color.red: false
+      color.blue: false
+      color.gold: false
+      color.aqua: false
+      color.darkaqua: false
+      color.black: false
+      color.darkblue: false
+      color.darkgray: false
+      color.darkred: false
+      color.darkgreen: false
+      color.purple: false
+      color.pink: false
+      color.gray: false
+      color.green: false
+      color.white: false
+      color.yellow: false
+  chatcolor.*:
+    description: colorise player nickname on chat
+    default: false
+    children:
+      chatcolor.red: false
+      chatcolor.blue: false
+      chatcolor.gold: false
+      chatcolor.aqua: false
+      chatcolor.darkaqua: false
+      chatcolor.black: false
+      chatcolor.darkblue: false
+      chatcolor.darkgray: false
+      chatcolor.darkred: false
+      chatcolor.darkgreen: false
+      chatcolor.purple: false
+      chatcolor.pink: false
+      chatcolor.gray: false
+      chatcolor.green: false
+      chatcolor.white: false
+      chatcolor.yellow: false
+  listcolor.*:
+    description: colorise player nickname on tab list
+    default: false
+    children:
+      listcolor.red: false
+      listcolor.blue: false
+      listcolor.gold: false
+      listcolor.aqua: false
+      listcolor.darkaqua: false
+      listcolor.black: false
+      listcolor.darkblue: false
+      listcolor.darkgray: false
+      listcolor.darkred: false
+      listcolor.darkgreen: false
+      listcolor.purple: false
+      listcolor.pink: false
+      listcolor.gray: false
+      listcolor.green: false
+      listcolor.white: false
+      listcolor.yellow: false
